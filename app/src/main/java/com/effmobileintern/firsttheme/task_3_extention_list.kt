@@ -8,6 +8,7 @@ import android.util.Log
  * По нажатию на кнопку выводить результат в логи (не использовать рефлексию).
  */
 
+//Вызываем в MainActivity
 fun List<Any>.getAllInt() {
     //просто проходимся по листу и сравниваем с типом и ищем Int
     forEach { item ->

@@ -32,4 +32,5 @@ class LoggingDelegate : ReadOnlyProperty<Any?, String> {
     }
 }
 
+//Дергаем в App
 fun doLogging() = LoggingDelegate()
